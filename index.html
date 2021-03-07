@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main">
+        <form action="">
+            <div>
+                <h1 id="signup">Sign Up</h1>
+            </div>
+            <div>
+                <fieldset>
+                    <legend>Your Basic Info</legend>
+                    
+                    <label for="name">Name:</label><br>
+                    <input type="text" name="user_name" id="name" class="line-input">
+                    <br>
+                
+                    <label for="email">Email:</label><br>
+                    <input type="email" name="user_name" id="email" class="line-input">
+                    <br>
+
+                    <label for="password">Password:</label><br>
+                    <input type="password" name="user_pass" id="password" class="line-input">
+                    <br>
+
+                    <label for="">Age:</label><br>
+                    <input type="radio" name="age" id="age1">
+                    <label for="age1">Under 13</label><br>
+                    <input type="radio" name="age" id="age2">
+                    <label for="age2">Over 13</label><br>
+                </fieldset><br><br>
+                <fieldset>
+                    <legend>Your Profile</legend>
+                    <label for="bio">Bio:</label><br>
+                    <textarea name="bio" id="" cols="30" rows="10" class="line-input"></textarea><br>
+                    
+                    <label for="role">Job Role:</label><br>
+                    <select name="role" id="role" class="line-input">
+                        <optgroup value="Web" label="WEB">
+                            <option selected value="Front-End">Front-End Developer</option>
+                            <option value="JS">JS Developer</option>
+                            <option value="PY">Python Developer</option>
+                            <option value="DJ">Django Developer</option>
+                            <option value="Web-Design">Web Designer</option>
+                            <option value="Wordpress">Wordpress Developer</option>
+                        </optgroup>
+                        <optgroup value="Mobile" label="Mobile">
+                            <option value="And">Android Developer</option>
+                            <option value="IOS">IOS Developer</option>
+                            <option value="MobileDes">Mobile Designer</option>
+                        </optgroup>
+                        <optgroup value="Bussiness" label="Bussiness">
+                            <option value="BussOwner">Bussiness Owner</option>
+                            <option value="Free">Freelancer</option>
+                        </optgroup>
+                    </select><br>
+
+                    <label for="interests">Interests</label><br>
+                    <input type="checkbox" name="dev" id="dev">
+                    <label for="dev">Development</label><br>
+                    <input type="checkbox" name="design" id="design">
+                    <label for="design">Design</label><br>
+                    <input type="checkbox" name="bussiness" id="bussiness">
+                    <label for="bussiness">Bussiness</label><br>
+                </fieldset>
+
+                <div>
+                    <input type="submit" value="Sign Up" id="submit">
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

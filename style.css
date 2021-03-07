@@ -1,0 +1,79 @@
+* {
+  color: #384047;
+  font-family: 'Nunito', sans-serif;
+  box-sizing: border-box;
+}
+form {
+  background: #f4f7f8;
+  width: 500px;
+  margin: auto;
+  padding: 10px 20px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px;
+  font-weight: 100;
+}
+
+fieldset {
+  border: 3px solid #ed553b;
+  margin-bottom: 30px;
+}
+
+form select,
+input,
+textarea {
+  border: none;
+  background-color: #e8eeef;
+}
+
+.line-input {
+  border: none;
+  width: 100%;
+  height: auto;
+  padding: 15px;
+  margin-bottom: 30px;
+}
+
+legend {
+  font-size: 22px;
+  font-weight: 400;
+}
+
+#signup {
+  text-align: center;
+  background-color: #ed553b;
+  border-radius: 10px;
+  font-family: 'Nunito', sans-serif;
+}
+
+#submit {
+  color: #ffffff;
+  background-color: #ed553b;
+  width: 100%;
+  font-size: 18px;
+  text-align: center;
+  border-radius: 5px;
+  border: none;
+  padding: 19px 39px 18px 39px;
+  font-family: Arial;
+  font-size: 18px;
+}
+optgroup {
+  font-family: Arial;
+  font-weight: bolder;
+  display: block;
+  font-size: 16px;
+}
+
+option {
+  font-family: Arial;
+  font-weight: normal;
+  display: block;
+  white-space: nowrap;
+  min-height: 1.2em;
+  padding: 0px 2px 1px;
+  font-size: 16px;
+}
+#role {
+  font-family: Arial;
+  font-size: 16px;
+}
